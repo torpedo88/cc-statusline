@@ -1,0 +1,31 @@
+# cc-statusline configuration
+# Copy to ~/.config/cc-statusline/config.toml and customize.
+
+[general]
+
+# Theme: catppuccin | dracula | nord | tokyo-night | gruvbox | minimal
+theme = "catppuccin"
+
+# Ordered, comma-separated list of segments. See lib/segments/*.sh
+# Available: caveman, profile, model, dir, git, cost, diff, duration,
+#            context, tokens, time, battery, node, python, kubectl, aws, session
+segments = "caveman,profile,model,dir,git,cost,diff,duration"
+
+# Separator rendered between segments (ignored in powerline mode)
+separator = " | "
+
+# Powerline mode (requires Nerd Font)
+powerline = "false"
+
+# Show emoji/icons next to segment values
+icons = "true"
+
+# Truncate long paths and branch names
+truncate_dir = "40"
+truncate_branch = "20"
+
+# Hide $0 cost segment
+hide_zero_cost = "true"
+
+# Format for the [time] segment (strftime)
+date_format = "%H:%M"
