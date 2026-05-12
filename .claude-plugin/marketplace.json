@@ -1,0 +1,19 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "cc-statusline",
+  "description": "Modular themeable statusline plugin for Claude Code.",
+  "owner": {
+    "name": "torpedo88",
+    "url": "https://github.com/torpedo88"
+  },
+  "plugins": [
+    {
+      "name": "cc-statusline",
+      "description": "Modular themeable statusline — 17 segments, 6 themes, pure bash.",
+      "source": "./",
+      "category": "productivity",
+      "version": "0.1.0",
+      "keywords": ["statusline", "theme", "productivity"]
+    }
+  ]
+}

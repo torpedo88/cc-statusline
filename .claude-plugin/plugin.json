@@ -1,0 +1,14 @@
+{
+  "$schema": "https://anthropic.com/claude-code/plugin.schema.json",
+  "name": "cc-statusline",
+  "version": "0.1.0",
+  "description": "Modular themeable statusline for Claude Code — 17 segments, 6 themes, pure bash.",
+  "author": {
+    "name": "torpedo88",
+    "url": "https://github.com/torpedo88"
+  },
+  "homepage": "https://github.com/torpedo88/cc-statusline",
+  "repository": "https://github.com/torpedo88/cc-statusline",
+  "license": "MIT",
+  "keywords": ["statusline", "bash", "theme", "claude-code", "productivity"]
+}

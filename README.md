@@ -19,6 +19,26 @@ Claude Code accepts a custom `statusLine` command that's invoked on every prompt
 
 ## Install
 
+### Option A — Claude Code plugin (recommended)
+
+```
+/plugin marketplace add torpedo88/cc-statusline
+/plugin install cc-statusline@cc-statusline
+```
+
+Restart Claude Code. The plugin ships a default `statusLine` config that points at the plugin's bundled script via `${CLAUDE_PLUGIN_ROOT}` — no manual `settings.json` edit needed.
+
+The plugin also registers four slash commands:
+
+| Command                              | Purpose                                          |
+|--------------------------------------|--------------------------------------------------|
+| `/cc-statusline:theme <name>`        | Switch theme (`dracula`, `nord`, …)              |
+| `/cc-statusline:segments <list>`     | Set active segments — comma-separated            |
+| `/cc-statusline:preview`             | Render against a sample payload                  |
+| `/cc-statusline:doctor`              | Diagnose installation                            |
+
+### Option B — standalone install
+
 ```bash
 curl -fsSL https://raw.githubusercontent.com/torpedo88/cc-statusline/main/install.sh | bash
 ```
